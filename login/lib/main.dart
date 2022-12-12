@@ -4,8 +4,8 @@ void main() {
   runApp(const MaterialApp());
   
 }
-class loginpage extends StatefulWidget {
-  const loginpage({super.key});
+class LoginPage extends StatefulWidget {
+  const LoginPage({super.key});
 
   @override
 Widget build (BuildContext){
@@ -13,7 +13,7 @@ Widget build (BuildContext){
 };
 }
 
-class _loginpageState extends State<loginpage> {
+class _loginpageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Container();
